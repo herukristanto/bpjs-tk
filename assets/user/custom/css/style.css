@@ -1,0 +1,407 @@
+@font-face {
+  font-family: 'My-Gotham';
+  src:  url('../fonts/gotham/GothamBook.otf'),
+        url('../fonts/gotham/Gotham-Light.otf'),
+        url('../fonts/gotham/GothamMedium.otf'),
+        url('../fonts/gotham/GothamBlack.otf'),
+        url('../fonts/gotham/GothamBold.otf');
+}
+
+html body {
+  font-family: My-Gotham;
+  height: 100%;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Icon 1 */
+
+.animated-icon1 {
+  width: 27px;
+  height: 20px;
+  position: relative;
+  margin: 0px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+.animated-icon1 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.animated-icon1 span {
+  background: white;
+}
+
+.animated-icon1 span:nth-child(1) {
+ top: 0px;
+}
+
+.animated-icon1 span:nth-child(2) {
+  top: 10px;
+}
+
+.animated-icon1 span:nth-child(3) {
+  top: 20px;
+}
+
+.animated-icon1.open span:nth-child(1) {
+  top: 11px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.animated-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.animated-icon1.open span:nth-child(3) {
+  top: 11px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255,255,255,.5);
+  border-color: transparent;
+}
+
+.hr-white {
+  border-top: 1px solid rgb(212, 212, 212);
+}
+
+.bg-2-color {
+  background: #cad9e330;
+}
+
+.bg-biru-theme {
+  background: #005c99;
+}
+.btn-biru-theme {
+  background: #005c99;
+}
+.btn-biru-theme:hover {
+  background: #003558;
+}
+.txt-biru-theme {
+  color: #005c99!important;
+}
+
+.mt-n-custom {
+  margin-top: -5rem;
+}
+
+.art{
+  background-color: #BEDE21;
+  line-height: 24px;
+  position: relative;
+  z-index: 10;
+}
+
+.line-height-custom {
+  line-height: 1.8rem;
+}
+
+.footer-bg {
+  background: #005c99;
+  background-image: url('../../img/footer-bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  clip-path: polygon(0% 4%, 65% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.card-art {
+  clip-path: polygon(0% 4%, 65% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.icon-marketing {
+  color: #FFA5A5;
+}
+.icon-design {
+  color: #8783E7;
+}
+.icon-human {
+  color: #79EBB0;
+}
+.icon-finance {
+  color: #F8D198;
+}
+.icon-government {
+  color: #C293FE;
+}
+.icon-bussiness {
+  color: #F7A6FF;
+}
+.icon-customer {
+  color: #A3D4C3;
+}
+.icon-project {
+  color: #8E83DD;
+}
+
+.mt-custom {
+  margin-top: 70px;
+}
+
+.display-4-responsive {
+  font-size: 1.5rem;
+}
+
+.lead-responsive {
+  font-size: 1rem;
+}
+
+.h3-responsive {
+  font-size: 1rem;
+}
+
+.h4-responsive {
+  font-size: 1rem;
+}
+
+.h5-responsive {
+  font-size: 1rem;
+}
+
+.h6-responsive {
+  font-size: .8rem;
+}
+
+.nav-logo-responsive {
+  width: 7.5rem;
+}
+
+.banner-img-responsive {
+  width: 10rem;
+}
+
+.my-bg-transparent {
+  background-color: white;
+}
+
+.bg-theme {
+  background-color: #226DA8;
+}
+
+.bg-custom-regis  {
+  background-color: rgba(255, 255, 255, 0.678);
+}
+
+.txt-theme {
+  color: #226DA8;
+}
+
+.navbar, .bg-white, .shadow-sm {
+  -webkit-transition: all ease-in-out .3s;
+  -o-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+}
+
+.navbar .nav-link {
+  font-size: 0.85rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(158, 158, 158);
+}
+
+.navbar-light .navbar-nav .nav-item:hover .nav-link {
+  color: #0076de;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border-color: transparent;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #0076de;
+}
+
+.page-item.active .page-link {
+  background-color: #005c99;
+  border-color: #005c99;
+}
+
+.page-link {
+  color: #005c99;
+}
+
+#page-home .search, 
+#page-job-user .search, 
+#page-job-board .search,
+#page-daftar-perusahaan .search {
+  position: relative;
+  -webkit-box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+          box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+#page-home .search input, 
+#page-job-user .search input,
+#page-job-board .search input,
+#page-daftar-perusahaan .search input {
+  height: 60px;
+  text-indent: 25px;
+  border: 2px solid #ffffff
+}
+
+#page-home .search input:focus, 
+#page-job-user .search input:focus,
+#page-job-board .search input:focus,
+#page-daftar-perusahaan .search input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 2px solid #005c99;
+}
+
+#page-home .search .fa-search, 
+#page-job-user .search .fa-search,
+#page-job-board .search .fa-search,
+#page-daftar-perusahaan .search .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 16px
+}
+
+#page-home .search button,
+#page-job-user .search button,
+#page-job-board .search button,
+#page-daftar-perusahaan .search button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 40px;
+  width: 125px;
+  background: #005c99;
+}
+
+#page-home #main .jumbotron {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#page-home #kategori .my-card-kategori-rangka:hover .my-card-kategori {
+  background-color: #005c99!important;
+  color: white;
+}
+
+#page-home #kategori p {
+  transition: all ease-in-out .3s;
+}
+
+#page-home #kategori .my-card-kategori-rangka:hover p {
+  color: white!important;
+  transition: all ease-in-out .3s;
+}
+
+#page-home .mySwiper .swiper-pagination {
+  position: static;
+}
+
+#page-detail-job .img-side {
+  max-height: 30rem;
+  overflow: hidden;
+}
+
+#page-daftar-perusahaan .mycard.border-bottom {
+  border-bottom: 8px solid #28a745!important;
+}
+
+.grecaptcha-badge {
+  z-index: 100;
+}
+
+@media (min-width: 992px) {
+  
+  .navbar .nav-link {
+    font-size: 0.85rem;
+  }
+
+  .my-bg-transparent {
+    background-color: transparent;
+  }
+
+  .nav-logo-responsive {
+    width: 13rem;
+  }
+
+  .banner-img-responsive {
+    width: 30rem;
+  }
+
+  .display-4-responsive {
+    font-size: 3.5rem;
+  }
+
+  .lead-responsive {
+    font-size: 1.25rem;
+  }
+
+  .h3-responsive {
+    font-size: 1.75rem;
+  }
+  
+  .h4-responsive {
+    font-size: 1.5rem;
+  }
+
+  .h5-responsive {
+    font-size: 1.25rem;
+  }
+  
+  .h6-responsive {
+    font-size: 1rem;
+  }
+
+  #page-home .search button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 40px;
+    width: 125px;
+    background: #005c99;
+    transition: all ease-in-out .3s;
+  }
+
+  #page-home .search button:hover {
+    background: #003e68;
+    transition: all ease-in-out .3s;
+  }
+  
+}
+
+
+@media (min-width: 1400px) {
+
+  .container {
+    max-width: 1320px;
+  }
+  
+}
+

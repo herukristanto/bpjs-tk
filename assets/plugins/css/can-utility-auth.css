@@ -1,0 +1,48 @@
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style untuk button submit  */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Kotak pesan ditampilkan ketika pengguna mengklik kolom password */
+#message, #message-conf,
+#message-new {
+  display:none;
+  background: transparent;
+  color: #000;
+  position: relative;
+  padding: 40px;
+  margin-top: 10px;
+}
+
+/* Tambahkan warna teks hijau dan tanda centang jika persyaratannya benar */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: 0px;
+  content: "✔";
+}
+
+/* Tambahkan warna teks merah dan "x" jika persyaratannya salah*/
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: 0px;
+  content: "✖";
+}
